@@ -1,0 +1,32 @@
+/* css styles */
+
+.headshot {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+.right-image {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    max-width: 40%;
+    height: auto;
+    }
+
+strong, b {
+    font-weight: bold !important;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .headshot {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+    }
+}

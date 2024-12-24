@@ -1,0 +1,15 @@
+[
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/current-posts/cavo/index.html",
+      "/projects/current-posts/gather/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/terraform.html"
+    ]
+  }
+]
