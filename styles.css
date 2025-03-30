@@ -23,6 +23,15 @@ strong, b {
     color: black;
 }
 
+.gradient-text {
+    background: linear-gradient(90deg, rgb(20, 20, 20) 0%, rgb(62, 59, 78) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    display: inline;
+  }
+  
+
 @media (max-width: 768px) {
     .headshot {
         float: none;
